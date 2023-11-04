@@ -16,7 +16,7 @@ public class ShowAllRecord {
 		frame.setSize(600,550);
 		frame.setResizable(false);
 		frame.setLocationRelativeTo(null);
-		frame.getContentPane().setBackground(Color.cyan);
+		frame.getContentPane().setBackground(Color.orange);
 		st=DbConnection.all;
 		showResultSet();
 		frame.setVisible(true);
